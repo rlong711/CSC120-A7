@@ -85,6 +85,7 @@ public class Building {
         this.goToFloor(this.activeFloor - 1);
     }
 
+     
     public void showOptions() {
         System.out.println("Available options at " + this.name + ":\n + enter() \n + exit() \n + goUp() \n + goDown()\n + goToFloor(n)");
     }
